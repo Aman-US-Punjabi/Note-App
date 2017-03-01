@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D52A37731E66F136006A7223 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = D52A37711E66F136006A7223 /* LICENSE.md */; };
+		D52A37741E66F136006A7223 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D52A37721E66F136006A7223 /* README.md */; };
 		D53E16B41E558FA6001CEFC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E16B31E558FA6001CEFC7 /* AppDelegate.swift */; };
 		D53E16B61E558FA6001CEFC7 /* NoteEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E16B51E558FA6001CEFC7 /* NoteEditVC.swift */; };
 		D53E16B91E558FA6001CEFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53E16B71E558FA6001CEFC7 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D52A37711E66F136006A7223 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		D52A37721E66F136006A7223 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D53E16B01E558FA6001CEFC7 /* Notes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53E16B31E558FA6001CEFC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53E16B51E558FA6001CEFC7 /* NoteEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVC.swift; sourceTree = "<group>"; };
@@ -44,6 +48,8 @@
 		D53E16A71E558FA6001CEFC7 = {
 			isa = PBXGroup;
 			children = (
+				D52A37711E66F136006A7223 /* LICENSE.md */,
+				D52A37721E66F136006A7223 /* README.md */,
 				D53E16B21E558FA6001CEFC7 /* Notes App */,
 				D53E16B11E558FA6001CEFC7 /* Products */,
 			);
@@ -173,7 +179,9 @@
 				D53E16BC1E558FA6001CEFC7 /* Notes_App.xcdatamodeld in Sources */,
 				D5468E881E55B3D9000EA34B /* MainVC.swift in Sources */,
 				D5468E991E56E8D0000EA34B /* NoteCell.swift in Sources */,
+				D52A37741E66F136006A7223 /* README.md in Sources */,
 				D53E16B61E558FA6001CEFC7 /* NoteEditVC.swift in Sources */,
+				D52A37731E66F136006A7223 /* LICENSE.md in Sources */,
 				D53E16B41E558FA6001CEFC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
